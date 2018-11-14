@@ -124,11 +124,52 @@
                 </ul>
             </div>
          </header>
-        
-     <footer id="footer">
-     </footer>
-     </div>
- <script>
+         <aside class="side_banner">
+             <h4>You Can Trust WWF</h4>
+             <p>World Wildlife Fund is a 501(c)(3) charitable organization. <br> 84 percent of WWF's spending is directed to worldwide conservation activities.</p>
+             <h4>Make your tax-deductible donation today.</h4>
+         </aside>
+         <div id="center_wrapper">
+             <div id="top_content">
+                 <div class="donate_bar">
+                    <div class="donate_orange" id="give_monthly">
+                        <p>
+                            <h3>Make a Monthly Donation</h3>
+                            You can protect threatened species and their habitats today with a monthly donation to World Wildlife Fund. Your support of WWF's global conservation work will make a world of difference. <br> 
+                            Your donation makes you a member of WWF. A monthly gift of $100+ makes you a Partner in Conservation. <br>
+                            <img src="" alt="">
+                        </p>
+                    </div>
+                    <div class="donate_orange" id="give_once">
+                        <p>
+                            <h3>Donate to WWF</h3>
+                            You can protect threatened species and their habitats today with a donation to World Wildlife Fund. Your support of WWF's global conservation work will make a world of difference. <br>
+                            Your donation makes you a member of WWF. A gift of $1,000+ makes you a Partner in Conservation. <br>
+                            Want to make a memorial or honor gift? <br>
+                            <img src="" alt="">
+                        </p>
+                    </div>
+                    <div class="donate_orange" id="give_renew">
+                        <p>
+                            <h3>Renew Your WWF Membership</h3>
+                            Threatened species and wild places need your help <br>
+                            By renewing your WWF membership today, your generous gift will help save endangered species, protect wild habitats, and build a future in which people live in harmony with nature. <br>
+                            As a special thank you, if you renew with a gift of at least $25, we'll send you a free gift of your choosing. <br>
+                            Make a world of difference by becoming a monthly member. Renew your membership with a monthly gift. <br>
+                            <img src="" alt="">
+                        </p>
+                    </div>
+                    <div class="donate_orange" id="give_more_ways">
+                        <a href="https://www.worldwildlife.org/pages/ways-to-support-wwf">
+                    </a>
+                    </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+    <footer id="footer">
+    </footer>
+<script>
 </script>
- </body>
-</html> 
+</body>
+</html>
