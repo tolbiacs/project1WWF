@@ -14,139 +14,121 @@
         <header id="navbar">
             <div class="menu_blue"> Our Work
                 <ul class="blue_underline"> 
-                    <li> <a href=""> Climate </a></li>
-                    <li> <a href=""> Food</a></li>
-                    <li> <a href=""> Forests</a></li>
-                    <li> <a href=""> Fresh Water</a></li>
-                    <li> <a href=""> Oceans </a></li>
-                    <li> <a href=""> Wildlife</a></li>
+                    <li> <a href="https://www.worldwildlife.org/initiatives/climate"> Climate </a></li>
+                    <li> <a href="https://www.worldwildlife.org/initiatives/food"> Food</a></li>
+                    <li> <a href="https://www.worldwildlife.org/initiatives/forests"> Forests</a></li>
+                    <li> <a href="https://www.worldwildlife.org/initiatives/fresh-water"> Fresh Water</a></li>
+                    <li> <a href="https://www.worldwildlife.org/initiatives/oceans"> Oceans </a></li>
+                    <li> <a href="https://www.worldwildlife.org/initiatives/wildlife-conservation"> Wildlife</a></li>
                 </ul>
                 <span class="link_arrow">
-                    <a href="">
+                    <a href="https://www.worldwildlife.org/initiatives">
                     VIEW ALL CONSERVATION WORK >
                     </a> 
                 </span>
                 <ul class="grey_background">
-                    <li> <a href="">Business</a></li>
-                    <li> <a href="">Policy</a></li>
-                    <li> <a href="">Partnerships</a></li>
-                    <li> <a href="">Science</a></li>
+                    <li> <a href="https://www.worldwildlife.org/initiatives/transforming-business">Business</a></li>
+                    <li> <a href="https://www.worldwildlife.org/initiatives/influencing-policy">Policy</a></li>
+                    <li> <a href="https://www.worldwildlife.org/pages/partnerships">Partnerships</a></li>
+                    <li> <a href="https://www.worldwildlife.org/initiatives/science">Science</a></li>
                 </ul>
             </div>
             
             <div class="menu_blue"> Species
                 <ul class="blue_underline"> 
-                    <li> <a href=""> Giant Pandas </a></li>
-                    <li> <a href=""> Tigers </a></li>
-                    <li> <a href=""> Elephants </a></li>
-                    <li> <a href=""> Gorillas </a></li>
-                    <li> <a href=""> Sea Turtles </a></li>
-                    <li> <a href=""> Polar Bears</a></li>
-                    <li> <a href=""> Rhinos </a></li>
-                    <li> <a href=""> Whales </a></li>
+                    <li> <a href="https://www.worldwildlife.org/species/giant-panda"> Giant Pandas </a></li>
+                    <li> <a href="https://www.worldwildlife.org/species/tiger"> Tigers </a></li>
+                    <li> <a href="https://www.worldwildlife.org/species/elephant"> Elephants </a></li>
+                    <li> <a href="https://www.worldwildlife.org/species/gorilla"> Gorillas </a></li>
+                    <li> <a href="https://www.worldwildlife.org/species/sea-turtle"> Sea Turtles </a></li>
+                    <li> <a href="https://www.worldwildlife.org/species/polar-bear"> Polar Bears</a></li>
+                    <li> <a href="https://www.worldwildlife.org/species/rhino"> Rhinos </a></li>
+                    <li> <a href="https://www.worldwildlife.org/species/whale"> Whales </a></li>
                 </ul>
                 <span class="link_arrow">
-                    <a href=""> 
+                    <a href="https://www.worldwildlife.org/species"> 
                         VIEW SPECIES > 
                     </a>
                 </span>
                 <ul class="grey_background">
-                    <li> <a href=""> Animal Trivia Games</a></li>
-                    <li> <a href=""> Symbolically Adopt an Animal</a></li>
-                    <li> <a href=""> Endangered Species </a></li>
-                    <li> <a href=""> Our Work Protecting Species </a></li>
+                    <li> <a href="https://www.worldwildlife.org/pages/animal-trivia-games"> Animal Trivia Games</a></li>
+                    <li> <a href="https://gifts.worldwildlife.org/gift-center/Default.aspx?sc=AWY1904OQ19068A02866RX"> Symbolically Adopt an Animal</a></li>
+                    <li> <a href="https://www.worldwildlife.org/species/directory?sort=extinction_status&direction=desc"> Endangered Species </a></li>
+                    <li> <a href="https://www.worldwildlife.org/teaching-resources/"> Our Work Protecting Species </a></li>
                 </ul>
             </div>
             
             <div class="menu_blue"> Places
                 <ul class="blue_underline"> 
-                    <li> <a href=""> Amazon</a></li>
-                    <li> <a href=""> Arctic </a></li>
-                    <li> <a href=""> Borneo and Sumatra</a></li> 
-                    <li> <a href=""> Congo Basin</a></li>
-                    <li> <a href=""> Coral Triangle </a></li>
-                    <li> <a href=""> Eastern Himalayas </a></li>
-                    <li> <a href=""> The Galapagos</a></li>
-                    <li> <a href=""> Northern Great Plains </a></li>
+                    <li> <a href="https://www.worldwildlife.org/places/amazon"> Amazon</a></li>
+                    <li> <a href="https://www.worldwildlife.org/places/arctic"> Arctic </a></li>
+                    <li> <a href="https://www.worldwildlife.org/places/borneo-and-sumatra"> Borneo and Sumatra</a></li> 
+                    <li> <a href="https://www.worldwildlife.org/places/congo-basin"> Congo Basin</a></li>
+                    <li> <a href="https://www.worldwildlife.org/places/coral-triangle"> Coral Triangle </a></li>
+                    <li> <a href="https://www.worldwildlife.org/places/eastern-himalayas"> Eastern Himalayas </a></li>
+                    <li> <a href="https://www.worldwildlife.org/places/the-galapagos"> The Galapagos</a></li>
+                    <li> <a href="https://www.worldwildlife.org/places/northern-great-plains"> Northern Great Plains </a></li>
                 </ul>
                 <span class="link_arrow">
-                    <a href = " ">
+                    <a href = "https://www.worldwildlife.org/places">
                     VIEW ALL WWF PRIORITY PLACES >
                     </a>
                 </span>
                 <ul class="grey_background">
-                    <li> <a href=""> Travel with WWF </a></li>
-                    <li> <a href=""> Habitats </a></li>
-                    <li> <a href=""> Our Work Conserving Places </a></li>
+                    <li> <a href="https://www.worldwildlife.org/travel"> Travel with WWF </a></li>
+                    <li> <a href="https://www.worldwildlife.org/habitats"> Habitats </a></li>
+                    <li> <a href="https://www.worldwildlife.org/initiatives/conserving-places"> Our Work Conserving Places </a></li>
                 </ul>
             </div>
             
             <div class="menu_black"> ABOUT US
                 <ul class="black_background">
-                    <li> <a href=""> History </a></li>
-                    <li> <a href=""> Leadership </a></li>
-                    <li> <a href=""> Experts </a></li>
-                    <li> <a href=""> News & Press </a></li>
-                    <li> <a href=""> Financials </a></li>
-                    <li> <a href=""> Careers </a></li>
-                    <li> <a href=""> Contact </a></li>
+                    <li> <a href="https://www.worldwildlife.org/about/history"> History </a></li>
+                    <li> <a href="https://www.worldwildlife.org/about/leadership"> Leadership </a></li>
+                    <li> <a href="https://www.worldwildlife.org/experts"> Experts </a></li>
+                    <li> <a href="https://www.worldwildlife.org/about/news_press"> News & Press </a></li>
+                    <li> <a href="https://www.worldwildlife.org/about/financials"> Financials </a></li>
+                    <li> <a href="https://www.worldwildlife.org/about/careers"> Careers </a></li>
+                    <li> <a href="https://www.worldwildlife.org/about/contact"> Contact </a></li>
                 </ul>
             </div>
             <div class="menu_black"> HOW TO HELP
                 <ul class="black_background">
-                    <li> <a href=""> Take Action </a></li>
-                    <li> <a href=""> Get Email </a></li>
-                    <li> <a href=""> Fundraise </a></li>
-                    <li> <a href=""> Send Ecards </a></li>
-                    <li> <a href=""> Shop to Support </a></li>
-                    <li> <a href=""> Travel with WWF </a></li>
-                    <li> <a href=""> See Other Ways to Support WWF </a></li>
+                    <li> <a href="https://support.worldwildlife.org/site/SPageServer?pagename=can_home"> Take Action </a></li>
+                    <li> <a href="https://support.worldwildlife.org/site/SPageServer/?pagename=enews_signup"> Get Email </a></li>
+                    <li> <a href="https://support.worldwildlife.org/site/SPageServer/?pagename=panda_nation_fundraising"> Fundraise </a></li>
+                    <li> <a href="https://support.worldwildlife.org/site/SPageServer/?pagename=WWF_Free_Ecards"> Send Ecards </a></li>
+                    <li> <a href="https://www.worldwildlife.org/pages/shop-to-support"> Shop to Support </a></li>
+                    <li> <a href="https://www.worldwildlife.org/travel"> Travel with WWF </a></li>
+                    <li> <a href="https://www.worldwildlife.org/pages/ways-to-support-wwf"> See Other Ways to Support WWF </a></li>
                 </ul>
             </div>
-
-            <div id="searchbar"> 
-
-            </div>
-
-            <div class="menu_black"> ADOPT
+             <div id="searchbar"> 
+             </div>
+             <div class="menu_black"> ADOPT
                 <ul class="black_background">
-                    <li> <a href=""> Adoptions </a></li>
-                    <li> <a href=""> Apparel </a></li>
-                    <li> <a href=""> More Gifts </a></li>
-                    <li> <a href=""> New for Holiday 2018 </a></li>
-                    <li> <a href=""> Snow Leopard Commercial </a></li>
+                    <li> <a href="https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions.aspx"> Adoptions </a></li>
+                    <li> <a href="https://gifts.worldwildlife.org/gift-center/gifts/Apparel.aspx"> Apparel </a></li>
+                    <li> <a href="https://gifts.worldwildlife.org/gift-center/gifts/Gifts-and-Accessories.aspx"> More Gifts </a></li>
+                    <li> <a href="https://gifts.worldwildlife.org/gift-center/special-occasions/new-holiday-gift-ideas.aspx"> New for Holiday 2018 </a></li>
+                    <li> <a href="https://support.worldwildlife.org/site/Donation2?df_id=13594&13594.donation=form1&s_src=AWS1809OQ18335A02349RX"> Snow Leopard Commercial </a></li>
                 </ul>
             </div>
-
-            <div class="menu_black"> DONATE
+             <div class="menu_black"> DONATE
                 <ul class="black_background">
-                    <li> <a href=""> Make a One-time Donation </a></li>
-                    <li> <a href=""> Make a Monthly Donation </a></li>
-                    <li> <a href=""> Become a Paperless Memeber </a></li>
-                    <li> <a href=""> Renew Your Membership </a></li>
-                    <li> <a href=""> Join as a Partner in Conservation </a></li>
+                    <li> <a href="https://support.worldwildlife.org/site/SPageServer?pagename=main_onetime"> Make a One-time Donation </a></li>
+                    <li> <a href="https://support.worldwildlife.org/site/SPageServer?pagename=main_monthly"> Make a Monthly Donation </a></li>
+                    <li> <a href="https://support.worldwildlife.org/site/SPageServer?pagename=paperless_monthly"> Become a Paperless Memeber </a></li>
+                    <li> <a href="https://support.worldwildlife.org/site/SPageServer?pagename=main_renewal"> Renew Your Membership </a></li>
+                    <li> <a href="https://www.worldwildlife.org/pages/partners-in-conservation"> Join as a Partner in Conservation </a></li>
                 </ul>
             </div>
-
-        </header>
+         </header>
         
-
-
-
-
-
-
-
-
-
-    <footer id="footer">
-
-    </footer>
-
-    </div>
-
-<script>
+     <footer id="footer">
+     </footer>
+     </div>
+ <script>
 </script>
-
-</body>
-</html>
+ </body>
+</html> 
