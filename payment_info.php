@@ -9,7 +9,7 @@
         <img src="https://support.worldwildlife.org/images/amex_small.gif" alt="Amex">
     </label> 
     <label for ="bank_account_withdrawal" id="payment_options">
-        <input type="radio" name="bank_account_withdrawal" id="bank_account_withdrawal">
+        <input type="radio" name="payment_options" id="bank_account_withdrawal">
         Bank Account Withdrawal 
     </label> 
     <label for ="paypal" id="paypal_payment">
