@@ -1,10 +1,9 @@
-<?php echo '
 <h4> Select Your Thank-You Gift </h4>
 <label for="no_gift" id="no_gift_label" >
     <input type="radio" name="no_gift" id="no_gift"/>
     <p class="gift_options">
         <h4>Maximize My Donation</h4><br/>
-        I prefer not to receive a gift, maximizing my support of WWF\'s global conservation efforts
+        I prefer not to receive a gift, maximizing my support of WWF's global conservation efforts
         <img src="https://support.worldwildlife.org/images/content/pagebuilder/nopremium-Nepal.jpg" alt="No Gift">
     </p>
 </label>
@@ -43,5 +42,4 @@
     </p>
     <img src="https://support.worldwildlife.org/images/content/pagebuilder/tiger_cooler_bag_and_orange_water_bottle_150x150.jpg" alt="Grocery kit with reusable water bottle">
     <a href="https://support.worldwildlife.org/images/content/pagebuilder/tiger_cooler_bag_and_orange_water_bottle_300.jpg" target="_blank"> See larger image </a> <br>
-</label>'
-?>
+</label>

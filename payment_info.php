@@ -1,4 +1,4 @@
-<?php echo '<h4> Payment Information </h4>
+<h4> Payment Information </h4>
 <p id="payment_type">
     Choose a Payment Type:
     <label for ="credit_cards" id="credit_card_payment">
@@ -27,5 +27,4 @@
     </label> 
     <a href = "" target="_blank"> What is CW number? </a>
     <input type="submit" name="submit_button" id="submit_button" value="Submit"/>
-</p>'
-?>
+</p>

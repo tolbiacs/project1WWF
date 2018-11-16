@@ -1,4 +1,4 @@
-<?php echo '<h4> Donor Information </h4>
+<h4> Donor Information </h4>
 <label for ="donor_firstname"> 
     First Name 
     <input type="text" name="donor_firstname" id="donor_firstname"/> 
@@ -13,7 +13,7 @@
 </label>
 <label for ="donor_country"> 
     Country <?php
-    include \'country_list.php\';
+    include 'country_list.php';
     ?>
 </label>
 <label for ="donor_lastname"> 
@@ -39,5 +39,4 @@
 <label for ="donor_receive_news">
     <input type="checkbox" name="donor_receive_news" id="donor_receive_news"/>
     Send me email about important conservation news and how I can help WWF protect the diversity of life on Earth.
-</label>'
-?>
+</label>

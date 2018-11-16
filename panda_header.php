@@ -89,7 +89,7 @@ echo    '<div class="menu_blue"> Our Work
         </div>
         <div id="searchbar"> 
         </div>
-        <div class="menu_black"> ADOPT
+        <div class="menu_black" id="menu_adopt"> ADOPT
             <ul class="black_background">
                 <li> <a href="https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions.aspx"> Adoptions </a></li>
                 <li> <a href="https://gifts.worldwildlife.org/gift-center/gifts/Apparel.aspx"> Apparel </a></li>
@@ -98,7 +98,7 @@ echo    '<div class="menu_blue"> Our Work
                 <li> <a href="https://support.worldwildlife.org/site/Donation2?df_id=13594&13594.donation=form1&s_src=AWS1809OQ18335A02349RX"> Snow Leopard Commercial </a></li>
             </ul>
         </div>
-        <div class="menu_black"> DONATE
+        <div class="menu_black" id="menu_donate"> DONATE
             <ul class="black_background">
                 <li> <a href="https://support.worldwildlife.org/site/SPageServer?pagename=main_onetime"> Make a One-time Donation </a></li>
                 <li> <a href="https://support.worldwildlife.org/site/SPageServer?pagename=main_monthly"> Make a Monthly Donation </a></li>
