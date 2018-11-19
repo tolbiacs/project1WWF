@@ -36,7 +36,7 @@
     Email
     <input type="email" name="donor_email" id="donor_email"/> 
 </label>
+<input type="checkbox" name="donor_receive_news" id="donor_receive_news"/>
 <label for ="donor_receive_news">
-    <input type="checkbox" name="donor_receive_news" id="donor_receive_news"/>
-    Send me email about important conservation news and how I can help WWF protect the diversity of life on Earth.
+    <p> Send me email about important conservation news and how I can help WWF protect the diversity of life on Earth.</p>
 </label>
