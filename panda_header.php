@@ -1,4 +1,4 @@
-<!-- <ul class="menu_blue"> 
+<ul class="menu_blue"> 
     <li class="top_category"> <span> Our Work </span> 
         <div class="left_list">
             <ul class="blue_underline"> 
@@ -15,7 +15,7 @@
                 </a> 
             </span>
         </div>
-        <ul class="grey_background">
+        <ul class="grey_background" id="first_grey">
             <li> <a href="https://www.worldwildlife.org/initiatives/transforming-business">Business</a></li>
             <li> <a href="https://www.worldwildlife.org/initiatives/influencing-policy">Policy</a></li>
             <li> <a href="https://www.worldwildlife.org/pages/partnerships">Partnerships</a></li>
@@ -37,7 +37,7 @@
             <span class="link_arrow"><a href="https://www.worldwildlife.org/species"> 
 VIEW SPECIES ></a></span>
         </div>
-            <ul class="grey_background">
+            <ul class="grey_background  id="second_grey"">
                 <li> <a href="https://www.worldwildlife.org/pages/animal-trivia-games"> Animal Trivia Games</a></li>
                 <li> <a href="https://gifts.worldwildlife.org/gift-center/Default.aspx?sc=AWY1904OQ19068A02866RX"> Symbolically Adopt an Animal</a></li>
                 <li> <a href="https://www.worldwildlife.org/species/directory?sort=extinction_status&direction=desc"> Endangered Species </a></li>
@@ -62,13 +62,13 @@ VIEW SPECIES ></a></span>
                 </a>
             </span>
         </div>
-            <ul class="grey_background">
+            <ul class="grey_background" id="third_grey">
                 <li> <a href="https://www.worldwildlife.org/travel"> Travel with WWF </a></li>
                 <li> <a href="https://www.worldwildlife.org/habitats"> Habitats </a></li>
                 <li> <a href="https://www.worldwildlife.org/initiatives/conserving-places"> Our Work Conserving Places </a></li>
             </ul>
     </li>
-</ul> -->
+</ul>
 <div class="menu_black" id="about_us"><a href="https://www.worldwildlife.org/about"> ABOUT US </a>
     <ul class="black_background">
         <li><a href="https://www.worldwildlife.org/about/history"><span> History </span></a></li>
@@ -92,6 +92,7 @@ VIEW SPECIES ></a></span>
     </ul>
 </div>
 <div id="searchbar"> 
+    <input type="search" name="search_bar" id="search_bar" placeholder="search"/>
 </div>
 <div class="menu_black orange_nav" id="menu_adopt"><a href="https://gifts.worldwildlife.org/gift-center/Default.aspx"> ADOPT </a>
     <ul class="black_background">

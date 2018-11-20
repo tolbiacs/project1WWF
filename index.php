@@ -9,6 +9,7 @@
 <body>
 <div id="main_wrapper">
         <div id="top_logo">
+            <img src="https://support.worldwildlife.org/images/wrpr_fy13/logo.png" alt="WWF logo">
         </div>
         <header id="navbar">
             <?php include('panda_header.php');?>
@@ -16,35 +17,21 @@
         <div id="main_content">
             <div id="center_wrapper">
                 <div class="top_content">
-                    <?php
-                    include 'donate_bar2.php';
-                    ?>
+                    <?php include('donate_bar.php');?>
                 </div>
                 <div id="submit_form">
                     <form class="monthly_form" action="" method="">
-                        <div id="monthly_gift_content">
-                            <h4> Your Monthly Donation </h4>
-                                <input type='radio' name='donate_dollars' id='ten_dollars' class='bucks'>
-                                <input type='radio' name='donate_dollars' id='fifteen_dollars' class='bucks'>
-                                <input type='radio' name='donate_dollars' id='twenty_dollars' class='bucks'>
-                                <input type='radio' name='donate_dollars' id='twenty5_dollars' class='bucks'>
-                                <input type='radio' name='donate_dollars' id='fifty_dollars' class='bucks'>
-                                <input type='text' name='donate_dollars' id='other_amount' class='bucks'>
+                        <div id="monthly_donation">
+                            <?php include('donate_amount.php')?>
                         </div>
-                        <div id ="giftoptions">
-                            <?php
-                            include 'gift_options.php';
-                            ?>
+                        <div id="giftoptions">
+                            <?php include('gift_options.php');?>
                         </div>
                         <div id="donor_content">
-                            <?php
-                            include 'donor_information.php';
-                            ?>
+                            <?php include('donor_information.php');?>
                         </div>
                         <div id="payment_content">
-                            <?php
-                            include 'payment_info.php';
-                            ?>
+                            <?php include('payment_info.php');?>
                         </div>
                     </form>
                 </div>
@@ -57,9 +44,7 @@
                 </div>
             </div>
             <aside class="side_banner">
-                <?php
-                include 'panda_aside.php';
-                ?>
+                <?php include('panda_aside.php');?>
             </aside>
         </div>
         <footer id="footer">
@@ -88,18 +73,6 @@
                     <a href="http://plus.google.com/107924515603459001334/posts"><img src="./WWF_img/facebook.png" alt="google plus icon"></a>
                     <a href="https://www.worldwildlife.org/pages/rss-feeds"><img src="./WWF_img/facebook.png" alt="rss icon"></a>
                 </div>
-                <!-- Facebook
-                l
-                Twitter
-                o
-                Instagram
-                B
-                YouTube
-                r
-                Google+
-                q
-                RSS Feeds
-                I -->
                 <p id="grey_copyright">© 2018 World Wildlife Fund</p>
             </div>
         </footer>
