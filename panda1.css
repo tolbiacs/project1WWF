@@ -1,0 +1,572 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    width: 100%;
+}
+
+/* **************************************************
+
+                Top logo
+
+*************************************************** */
+
+#top_logo{
+    display: block;
+    float: left;
+    position: absolute;
+    left: 70px;
+    width: 100px;
+    height: 120px;
+    z-index: 15;
+}
+
+/* **************************************************
+
+                Nav bar black background
+
+*************************************************** */
+
+#navbar{
+    position: relative;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    background: url("./WWF_img/header_pattern.png");
+    background-repeat: round;
+    width: 100%;
+    height: 8%;
+    justify-content: center;
+ }
+
+#navbar *{
+    vertical-align: middle;
+}
+
+#navbar .menu_black a {
+    text-decoration: none;
+}
+
+#navbar .menu_black>a {
+    color: #989b97;
+}
+
+#navbar .orange_nav>a {
+    color: #fff;
+}
+
+#navbar .menu_black {
+    font-size: 0.9em;
+    color: #989b97;
+    background-color: transparent;
+    height: 15px;
+    padding: 17.5px 20px;
+}
+
+#navbar #about_us {
+    width: 78px;
+}
+
+#navbar #how_help {
+    width: 101px;
+}
+
+#navbar #menu_adopt {
+    width: 51.500px;
+    background-color: #e98300;
+}
+#navbar .orange_nav{
+    color: #fff;
+    margin-left: 10px;
+    height: 16px;
+    padding: 9px 20px;
+    margin-top: 9px;
+}
+
+#navbar #menu_donate{
+    background-color: #d55c19;
+    width: 61.641px;
+}
+
+#navbar .menu_black ul li{
+    display: none;
+}
+
+#navbar .menu_black ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#navbar .menu_black:hover {
+    background-color: #222 !important;
+    color: white !important;
+    z-index: 10;
+}
+
+#navbar .menu_black:hover ul li {
+    display: block;
+    position: relative;
+    top: 15px;
+    left: -60px;
+    background-color: #222;
+    color: white; 
+    width: 140px;
+    height: fit-content;
+    padding: 3px 25px 3px 15px;
+    margin: 0px;
+    text-align: left;
+}
+
+#navbar #menu_donate:hover ul li {
+left: -138px;
+}
+
+#navbar .menu_black li a {
+    color: #989b97;
+    text-decoration: none;
+}
+
+#navbar .menu_black ul li a:hover span{
+    display: inline-block;
+    background-color: #222;
+    color: #fff;
+    border-bottom: #989b97 dotted 1px;
+}
+
+#searchbar {
+    padding-top: 18px;
+}
+
+#searchbar input{
+    width: 120px;
+}
+/* **************************************************
+
+                Nav bar blue background
+
+*************************************************** */
+
+ul li {
+    list-style-type: none;
+    font-size: 0.8em;
+    line-height: normal;
+}
+.menu_blue{
+    margin: auto;
+    display: flex;
+}
+.top_category{
+    width: 120px; 
+    height: 50px; 
+    line-height: 50px;
+    color: white;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.top_category span {
+    display: block;
+    width: 100%;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.left_list, .grey_background{
+    display: none;
+ } 
+.top_category:hover {
+    background-color: white;
+    color: skyblue;
+    z-index: 10;
+}
+.top_category:hover .left_list ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: left;
+    height: 173px;
+}
+.blue_underline{
+    border-bottom: 0.5px dotted lightgray;
+    padding-left: 0;
+}
+.blue_underline li {
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.top_category:hover .link_arrow a {
+    font-size: 15px;
+    line-height: 0px; 
+    text-decoration: none;
+    color: steelblue;
+}
+.top_category:hover .blue_underline a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+.top_category:hover .grey_background a {
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 5px;
+    color: steelblue;
+}
+.top_category:hover .left_list {
+    display: initial;
+    position: relative;
+    left: -120px;
+    top: 50px;
+    width: 345px;
+    background-color: white;
+    box-shadow: -5px 5px 5px white,-1px 3px 10px gray;
+}
+.top_category:hover .grey_background {
+    display: initial;
+    position: relative;
+    left: -120px;
+    top: 50px;
+    width: 185px;
+    background-color: lightgray;
+    box-shadow: 5px 5px 5px -3px gray;
+    padding-left: 0;
+    text-align: left;
+}
+.top_category:hover .grey_background li{
+    padding : 15px 5px 15px 5px;
+    border-bottom: 1px dotted black;
+}
+.top_category:hover .grey_background li:hover{
+    background-color: #006ea5;
+}
+.top_category:hover .grey_background li:hover a{
+    color: white;
+}
+.top_category:hover .blue_underline li:hover a{
+    color: skyblue;
+    border-bottom: 0.5px dotted gray;
+}
+
+.link_arrow a:link{
+    display:block;
+    height: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+/* .top_category:hover #first_grey {
+    position: absolute;
+    height: 224px;
+    left: 784px;
+}
+.top_category:hover #second_grey {
+    position: absolute;
+    height: 224px;
+    left: 902px;
+}
+.top_category:hover #third_grey {
+    position: absolute;
+    height: 224px;
+    left: 1020px;
+} */
+
+/* **************************************************
+
+                Aside / main div / footer
+
+*************************************************** */
+
+#main_wrapper{
+    width: 100%;
+}
+
+#main_content{
+    display: flex;
+    width: 75%;
+    margin: 45px auto 0 auto;
+}
+
+#center_wrapper{
+    width: 78%;
+    display: block;
+    padding-top: 35px;
+}
+
+.side_banner{
+    display: block;
+    width: 22%;
+    position: relative;
+}
+#footer {
+    display: block;
+    width: 70%;
+    margin: 30px auto 0 auto;
+    border-top: 1px solid #f4f4f4;
+}
+
+/* **************************************************
+
+                Blue links
+
+*************************************************** */
+
+#submit_form a{
+    text-decoration: none;
+    color: #006ea5;
+    margin: 0px 9px;
+    font-size: .8em
+}
+
+#submit_form a:hover{
+    text-decoration: underline;
+    color: #006ea5;
+}
+
+#last_content a{
+    text-decoration: none;
+    color: #006ea5;
+    margin: 0px 9px;
+    font-size: .8em
+}
+
+#last_content a:hover{
+    text-decoration: underline;
+    color: #006ea5;
+}
+
+#footer_wrapper #footer_links a{
+    text-decoration: none;
+    color: #006ea5;
+    margin: 0px 9px;
+    font-size: .8em
+}
+
+#footer_wrapper #footer_links a:hover{
+    text-decoration: underline;
+    color: #006ea5;
+}
+
+/* **************************************************
+
+                Inside Aside
+
+*************************************************** */
+
+.side_banner{
+    justify-content: center;
+    margin: 35px 0 0 20px;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+.side_banner #inside_aside{
+    padding: 10px;
+    border: 1px dotted #808080;
+}
+
+.side_banner #inside_aside div{
+    margin: 10px 0;
+}
+
+.side_banner h4{
+    margin: 0 0 2px 0;
+    font-size: 16px;
+    color: #777890;
+    font-weight: bold;
+}
+
+.side_banner p{
+    color: #444444;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: .85em;
+}
+
+/* **************************************************
+
+                Inside Footer
+
+*************************************************** */
+
+#footer #footer_wrapper{
+    padding: 30px 15px 40px 15px;
+}
+
+#footer_wrapper #footer_links{
+    display: inline;
+}
+
+#footer_wrapper #footer_logo{
+    float: right;
+}
+
+#footer_wrapper p{
+    font-size: 13px;
+    color: #444;
+    margin: 30px 0;
+}
+
+#footer_wrapper #sns_icons {
+    display: inline;
+}
+
+#footer_wrapper #sns_icons a{
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 15px;
+}
+#footer_wrapper #sns_icons img{
+    height: 20px;
+    width: 20px;
+}
+
+#footer_wrapper #grey_copyright{
+    clear: both;
+    color: #9d9c9c;
+    margin-bottom: 10px;
+}
+
+/* **************************************************
+
+                Top Content(Give monthly)
+
+*************************************************** */
+
+.top_content .hidden_orange {
+    display: none;
+}
+
+.top_content .shown_orange {
+    display: block;
+}
+
+.top_content #donate_wrapper {
+    display: flex;
+    margin: 20px auto 20px auto;
+}
+
+.top_content .donate_orange {
+    height: 22px;
+    width: 170px;
+    padding: 13px;
+    border: 1px dotted #444;
+    font-weight: bold;
+    background-color: #777880;
+}
+
+.top_content .donate_orange:hover {
+    background-color: #ea890d
+}
+
+.top_content .donate_orange a{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+.top_content #donate_comments{
+    margin: 40px 0 50px 0;
+}
+#donate_comments a{
+    color: #006EA5;
+    text-decoration: underline;
+}
+.top_content .donate_img{
+    float: right;
+    display: block;
+}
+
+.top_content .donate_text{
+    display: block;
+}
+
+.top_content .donate_text h3{
+    color: #606d74;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top_content .donate_text p{
+    color: #6a6f74;
+    padding: 0 10px 0 10px;
+}
+
+/* **************************************************
+
+                Submit form
+
+*************************************************** */
+
+#submit_form h6{
+    font-size: 18px;
+    font-weight: normal;
+    padding: 5px 0 5px 0;
+    border-bottom: 2px solid #ea890d;
+    margin: 20px 0;
+}
+
+/* **************************************************
+
+                donate amount
+
+*************************************************** */
+#amount_wrapper{
+   border: none;
+}
+
+#amount_wrapper .select_amount{
+    font-size: 1em;
+    display: inline-block;
+    background-color: #777880;
+    border: 2px solid #777880;
+    border-radius: 5px;
+    color: white;
+    width: 80px; 
+    height: 40px;
+    margin-right: 10px;
+    text-align: center; 
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.select_amount label {
+    cursor: pointer;
+}
+
+#amount_wrapper .select_amount:hover{
+    font-size: 1.1em;
+    background-color: #ea890d;
+}
+
+#monthly_donation input {
+    position: fixed;
+    left: -9999px;
+}
+
+/* **************************************************
+
+                Gift options
+
+*************************************************** */
+
+
+
+/* **************************************************
+
+                Donor information
+
+*************************************************** */
+
+#donor_content .red_star{
+    color: red;
+}
