@@ -32,7 +32,7 @@ body{
     display: flex;
     text-align: center;
     vertical-align: middle;
-    background: url("./WWF_img/header_pattern.png");
+    background: url("../WWF_img/header_pattern.png");
     background-repeat: round;
     width: 100%;
     height: 8%;
@@ -81,11 +81,13 @@ body{
     height: 16px;
     padding: 9px 20px;
     margin-top: 9px;
+    border-radius: 5px;
 }
 
 #navbar #menu_donate{
     background-color: #d55c19;
     width: 61.641px;
+    border-radius: 5px;
 }
 
 #navbar .menu_black ul li{
@@ -172,7 +174,6 @@ ul li {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    
 }
 .left_list, .grey_background{
     display: none;
@@ -305,7 +306,7 @@ ul li {
 }
 #footer {
     display: block;
-    width: 70%;
+    width: 75%;
     margin: 30px auto 0 auto;
     border-top: 1px solid #f4f4f4;
 }
@@ -462,8 +463,12 @@ ul li {
     background-color: #777880;
 }
 
+.top_content #give_monthly_div {
+    background-color: #ea890d;
+}
+
 .top_content .donate_orange:hover {
-    background-color: #ea890d
+    background-color: #ea890d;
 }
 
 .top_content .donate_orange a{
@@ -520,10 +525,10 @@ ul li {
                 donate amount
 
 *************************************************** */
-#amount_wrapper{
-   border: none;
-}
 
+#amount_wrapper{
+    border: none;
+}
 #amount_wrapper .select_amount{
     font-size: 1em;
     display: inline-block;
@@ -531,27 +536,47 @@ ul li {
     border: 2px solid #777880;
     border-radius: 5px;
     color: white;
-    width: 80px; 
+    width: 80px;
     height: 40px;
     margin-right: 10px;
-    text-align: center; 
+    text-align: center;
     line-height: 40px;
     cursor: pointer;
 }
-
+#user_amount{
+    font-size: 1em;
+    display: inline-block;
+    border: 2px solid #777880;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    background-color: white;
+    color: #777880;
+}
 .select_amount label {
     cursor: pointer;
 }
-
 #amount_wrapper .select_amount:hover{
     font-size: 1.1em;
     background-color: #ea890d;
 }
-
-#monthly_donation input {
+#user_amount:hover{
+    font-size: 1.1em;
+    background-color: #ea890d;
+}
+#monthly_donation input[type='radio'] {
     position: fixed;
     left: -9999px;
 }
+#user_amount input[type='text']{
+    display: none;
+}
+
+
 
 /* **************************************************
 
@@ -559,7 +584,30 @@ ul li {
 
 *************************************************** */
 
+#gift_wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+/* #gift_wrapper div{
+margin-left: 10px;
+padding-left: 5px;
+} */
+
+.gift_options_div {
+display:none;
+width: 49%;
+}
+.gift_options{
+float: left;
+}
+.gift_option img{
+float: right;
+}
+#gift_zero{
+display:block;
+}
 
 /* **************************************************
 
@@ -567,6 +615,76 @@ ul li {
 
 *************************************************** */
 
-#donor_content .red_star{
+#donor_info{
+    border: none;
+}
+
+#submit_form .red_star{
     color: red;
+}
+
+#donor_content .white_star{
+    color: white;
+}
+
+#donor_info .donor_row_wrapper{
+    display: inline-block;
+    margin: 0;
+    width: 45%;
+}
+
+#donor_info .donor_row_wrapper div{
+    width: 100%;
+    height: 25px;
+    margin: 8px 25px 4px 0;
+    display: block;
+}
+
+#donor_info div input{
+    width: 160px;
+    float: right;
+}
+
+/*     select for country        */
+#donor_info div select{
+    width: 164px;
+    float: right;
+}
+
+/*     width for zip/state        */
+#donor_info .donor_row_wrapper div div{
+    width: 45%;
+    margin-top: 0;
+    display: inline-block;
+}
+
+#donor_info .donor_row_wrapper #donor_state{
+    width: 60px;
+}
+
+#donor_info .donor_row_wrapper #donor_zip{
+    width: 90px;
+}
+
+/*     select for state        */
+#donor_info .donor_row_wrapper div div select{
+    width: 90px;
+}
+
+#donor_info .donor_row_wrapper #label_zip{
+    width: 90px;
+}
+
+#donor_info #zip_div{
+    margin-right: 0;
+}
+
+#donor_info #donor_receive_news{
+    float: left;
+    width: 35px;
+    margin-bottom: 25px;
+}
+
+#donor_info #recieve_n{
+    width: 55%;
 }

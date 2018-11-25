@@ -1,18 +1,18 @@
 <h6> Select Your Thank-You Gift </h6>
 <div id="gift_wrapper">
-    <div class="gift_options_div gift_zero">
+    <div class="gift_options_div" id="gift_zero">
         <input type="radio" class="gift_options" name="gift_options" id="no_gift"/>
         <label for="no_gift" id="no_gift_label">
             <p class="gift_options">
                 <h4>Maximize My Donation</h4>
                 I prefer not to receive a gift, maximizing my support of WWF's global conservation efforts
-                <img src="https://support.worldwildlife.org/images/content/pagebuilder/nopremium-Nepal.jpg" alt="No Gift">
             </p>
+            <img src="https://support.worldwildlife.org/images/content/pagebuilder/nopremium-Nepal.jpg" alt="No Gift">
         </label>
     </div>
 
-    <div class="gift_options_div gift_twenty">
-        <input type="radio" class="gift_options" name="gift_options" id="tiger_cooler"/>
+    <div class="gift_options_div" id="tiger_cooler">
+        <input type="radio" class="gift_options" name="gift_options" />
         <label for="tiger_cooler" id="tiger_cooler_label">
         <p class="gift_options">
             <h4>Tiger Cooler Bag and Water Bottle </h4>
@@ -23,8 +23,8 @@
         </label>
     </div>
 
-    <div class="gift_options_div gift_fifteen">
-        <input type="radio" class="gift_options" name="gift_options" id="tiger_socks"/>
+    <div class="gift_options_div" id="tiger_socks">
+        <input type="radio" class="gift_options" name="gift_options" />
         <label for="tiger_socks" id="tiger_socks_label">
         <p class="gift_options">
             <h4>Pair of Tiger Socks</h4>
@@ -35,8 +35,8 @@
         </label>
     </div>
 
-    <div class="gift_options_div gift_fifteen">
-        <input type="radio" class="gift_options" name="gift_options" id="grocery_kit"/>
+    <div class="gift_options_div" id="grocery_kit">
+        <input type="radio" class="gift_options" name="gift_options" />
         <label for="grocery_kit" id="grocery_kit_label">
         <p class="gift_options">
             <h4>Grocery Shopping Kit</h4>
@@ -47,8 +47,8 @@
         </label>
     </div>
 
-    <div class="gift_options_div gift_ten">
-        <input type="radio" class="gift_options" name="gift_options" id="water_bottle"/>
+    <div class="gift_options_div" id="water_bottle">
+        <input type="radio" class="gift_options" name="gift_options" />
         <label for="water_bottle" id="water_bottle_label">
         <p class="gift_options">
             <h4>WWF Water Bottle</h4>

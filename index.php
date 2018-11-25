@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>World Wildlife Foundation</title>
-    <link rel='stylesheet' href="./panda1.css" />
+    <link rel='stylesheet' href="./style/panda1.css" />
 </head>
 <body>
 <div id="main_wrapper">
@@ -12,29 +12,21 @@
             <img src="https://support.worldwildlife.org/images/wrpr_fy13/logo.png" alt="WWF logo">
         </div>
         <header id="navbar">
-            <?php include('panda_header.php');?>
+            <?php include('./html/panda_header.php');?>
         </header>
         <div id="main_content">
             <div id="center_wrapper">
                 <div class="top_content">
-                    <?php include('donate_bar.php');?>
+                    <?php include('./html/donate_bar.php');?>
                 </div>
-                <div id="submit_form">
-                    <form class="monthly_form" action="" method="">
-                        <div id="monthly_donation">
-                            <?php include('donate_amount.php')?>
-                        </div>
-                        <div id="giftoptions">
-                            <?php include('gift_options.php');?>
-                        </div>
-                        <div id="donor_content">
-                            <?php include('donor_information.php');?>
-                        </div>
-                        <div id="payment_content">
-                            <?php include('payment_info.php');?>
-                        </div>
-                    </form>
-                </div>
+                <?php
+                    if(isset($_POST['donor_firstname'])){
+                        include('./html/thank_you.php');
+                    }
+                    else {
+                        include('./html/donor_form.php');
+                    }
+                ?>
                 <div id="last_content">
                     When you click submit, your monthly donation will be processed.<br/><br/>
                     <b>World Wildlife Fund is a 501(c)(3) charitable organization. </b><br/><br>
@@ -44,7 +36,7 @@
                 </div>
             </div>
             <aside class="side_banner">
-                <?php include('panda_aside.php');?>
+                <?php include('./html/panda_aside.php');?>
             </aside>
         </div>
         <footer id="footer">
@@ -77,5 +69,5 @@
             </div>
         </footer>
     </div>
-<script src="panda1.js"></script>
+<script src="./js/panda1.js"></script>
 </body>
